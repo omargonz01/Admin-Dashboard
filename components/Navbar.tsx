@@ -7,6 +7,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Fragment } from "react";
 import { Session } from "next-auth";
+import Image from 'next/image';
 
 const navigation = [
   { name: "Users", href: "/" },
