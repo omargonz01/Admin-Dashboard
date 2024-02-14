@@ -1,4 +1,4 @@
-import Nav from '@/components/Nav';
+import Nav from "@/components/Nav";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Suspense } from "react";
@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Nav />
         {children}
-        </body>
+      </body>
     </html>
   );
 }
