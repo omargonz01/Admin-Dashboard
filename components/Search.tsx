@@ -2,6 +2,7 @@
 
 import { usePathname, useRouter } from "next/navigation";
 import { useTransition } from "react";
+import { SearchIcon } from "lucide-react";
 
 type Props = {
   query?: string;
