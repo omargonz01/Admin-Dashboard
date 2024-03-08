@@ -20,6 +20,7 @@ export default function UsersTable({ users }: Props) {
           <TableHeaderCell>Name</TableHeaderCell>
           <TableHeaderCell>Email</TableHeaderCell>
           <TableHeaderCell>Created At</TableHeaderCell>
+          <TableHeaderCell>Image</TableHeaderCell>
         </TableRow>
       </TableHead>
       <TableBody>
@@ -27,6 +28,7 @@ export default function UsersTable({ users }: Props) {
           <TableRow key={user.id}>
             <TableCell>{user.name}</TableCell>
             <TableCell>{user.email}</TableCell>
+            <TableCell>{user.image}</TableCell>
             <TableCell>
               {new Intl.DateTimeFormat("en-US").format(user.createdAt)}
             </TableCell>
